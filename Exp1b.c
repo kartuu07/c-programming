@@ -16,6 +16,6 @@ printf("Maths marks: ");
 scanf("%d",&maths_mark);
 float average = (physics_mark+chemistry_mark +maths_mark)/3.0;
 printf("\nAverage marks: %f", average);
-(50<=average)? printf("You are eligible"); (50>average) printf("You are not eligible");
+(average >= 50) ? printf("\nYou are not eligible ") : printf("\nYou are not eligible ");
 return 0;
 }
